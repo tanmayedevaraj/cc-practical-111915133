@@ -1,0 +1,28 @@
+{
+    "name": "dhanam",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon server.js",
+        "runn": "nodemon authServer.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.2",
+        "consolidate": "^0.16.0",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.3",
+        "jsonwebtoken": "^8.5.1",
+        "mongodb": "^4.4.1",
+        "mongoose": "^6.2.7",
+        "mustache": "^4.2.0",
+        "node-fetch": "^2.6.7"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.15"
+    }
+}
